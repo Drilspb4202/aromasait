@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import { format } from 'date-fns'
 import { ru } from 'date-fns/locale'
-import { Bot, User, Clock, ThumbsUp, ThumbsDown, Waveform, Smile, Meh, Frown } from 'lucide-react'
+import { Bot, User, Clock, ThumbsUp, ThumbsDown, Smile, Meh, Frown, Waveform } from 'lucide-react'
 
 interface Message {
   text: string

@@ -7,14 +7,16 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  reactStrictMode: true,
+  images: {
+    unoptimized: true,
+    domains: ['knvdawidegpktwtewrdl.supabase.co'],
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-  images: {
-    unoptimized: true,
+  eslint: {
+    ignoreDuringBuilds: true,
   },
   experimental: {
     webpackBuildWorker: true,

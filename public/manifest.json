@@ -1,20 +1,15 @@
 {
-  "name": "Арома и Веган-Баланс",
-  "short_name": "АВБ",
-  "description": "Ваш путь к гармонии и благополучию",
+  "name": "Aroma Vegan Balance",
+  "short_name": "AVB",
+  "description": "Ваш персональный помощник в ароматерапии и веганском питании",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "theme_color": "#4f46e5",
   "icons": [
     {
       "src": "/icons/icon-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "/icons/icon-512x512.png",
-      "sizes": "512x512",
       "type": "image/png"
     }
   ]

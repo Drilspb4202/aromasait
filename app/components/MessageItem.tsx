@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useTheme } from 'next-themes'
 import { format } from 'date-fns'
 import { ru } from 'date-fns/locale'
-import { Bot, User, Clock, ThumbsUp, ThumbsDown, Smile, Meh, Frown, Waveform } from 'lucide-react'
+import { Bot, User, Clock, ThumbsUp, ThumbsDown, Smile, Meh, Frown, Volume2 } from 'lucide-react'
 
 interface Message {
   text: string
@@ -100,7 +100,7 @@ export const MessageItem = ({ message, settings, index, onReaction }: MessageIte
                     className={`h-8 rounded ${isDark ? 'filter invert' : ''}`} 
                   />
                   <span className="text-xs opacity-75 flex items-center">
-                    <Waveform className="w-4 h-4 mr-1" />
+                    <Volume2 className="w-4 h-4 mr-1" />
                     Голосовое сообщение
                   </span>
                 </div>
